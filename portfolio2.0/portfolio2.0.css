@@ -1,0 +1,181 @@
+    @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Luxurious+Roman&display=swap");
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    nav {
+        font-family: 'Luxurious Roman', cursive;
+    }
+    
+    @import url("https://fonts.googleapis.com/css2?family=Acme&family=Pacifico&display=swap");
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    div {
+        font-family: 'Acme', sans-serif;
+    }
+    /* HEADER */
+    
+    header.myheader {
+        background: url("../images/home.jpg");
+        background-size: cover;
+        height: 700px;
+    }
+    
+    header.myheader nav.Mynav ul.navbar {
+        padding: 20px;
+    }
+    
+    header.myheader nav.Mynav ul.navbar #about {
+        margin-top: 2px;
+    }
+    
+    header.myheader nav.Mynav ul.navbar #more {
+        margin-top: 2px;
+    }
+    
+    header.myheader nav.Mynav ul.navbar li {
+        display: inline-block;
+        font-size: 18px;
+    }
+    
+    header.myheader nav.Mynav ul.navbar li.right {
+        float: right;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    header.myheader nav.Mynav ul.navbar li.right a:hover {
+        text-decoration: underline;
+        color: rgb(52, 217, 247);
+        margin-top: 2px;
+    }
+    
+    header.myheader nav.Mynav ul.navbar li.left {
+        float: left;
+        font-size: 20px;
+        border: 3px solid;
+        border-radius: 18px;
+        color: rgb(220, 250, 247);
+        font-weight: bold;
+    }
+    
+    header.myheader nav.Mynav ul.navbar li.left a:hover {
+        text-decoration: underline;
+        color: rgb(47, 217, 233);
+    }
+    
+    header.myheader nav.Mynav ul.navbar::after {
+        display: block;
+        clear: both;
+        content: '';
+    }
+    
+    header.myheader nav.Mynav ul.navbar li a {
+        text-decoration: none;
+        color: rgb(89, 153, 255);
+        display: inline-block;
+        padding: 12px;
+    }
+    /* about */
+    
+    section.about h2.text-center:hover {
+        text-decoration: underline;
+    }
+    
+    section.about div.container div.row div.col-md p.aboutpara {
+        font-size: 20px;
+        font-family: 'Luxurious Roman', cursive;
+        font-weight: 300;
+        line-height: 30px;
+    }
+    
+    section.about a.portfolio {
+        display: inline-block;
+        padding: 12px;
+        border-radius: 22px;
+        border: 3px solid black;
+        color: black;
+        background-color: rgb(105, 197, 233);
+        text-decoration: none;
+        margin: 12px;
+        font-weight: bold;
+    }
+    
+    section.about a.portfolio:hover {
+        display: inline-block;
+        color: rgb(9, 6, 206);
+        text-decoration: underline;
+    }
+    
+    section.more {
+        background-color: rgb(209, 232, 243);
+        text-align: center;
+        padding: 15px;
+        margin-top: 5px;
+    }
+    
+    section.more h2.text-center:hover {
+        text-decoration: underline;
+    }
+    
+    a.anchor {
+        padding: 25px;
+        display: inline-block;
+    }
+    
+    a.anchor:hover {
+        color: rgb(43, 39, 253);
+        font-weight: bold;
+    }
+    
+    h3.text-center:hover {
+        text-decoration: underline;
+    }
+    
+    section.more div.col-md {
+        font-size: 14px;
+        font-weight: bold;
+        font-family: 'Luxurious Roman', cursive;
+    }
+    /* why me */
+    section.whyme h2.text-center:hover {
+        text-decoration: underline;
+    }
+    
+    section.whyme div.container div.row div.col-md p.para {
+        font-size: 20px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    
+    section.whyme a.github {
+        display: inline-block;
+        padding: 12px;
+        border-radius: 30px;
+        border: 3px solid black;
+        color: rgb(255, 241, 40);
+        background-color: rgb(129, 144, 231);
+        text-decoration: none;
+        margin: 12px;
+        font-weight: bold;
+    }
+    
+    section.whyme a.github:hover {
+        text-decoration: underline;
+    }
+    /* contact section */
+    
+    section.cont {
+        background-color: bisque;
+    }
+    
+    section.cont h2.text-center:hover {
+        text-decoration: underline;
+    }

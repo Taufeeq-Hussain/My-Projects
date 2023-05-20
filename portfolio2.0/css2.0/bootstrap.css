@@ -1,0 +1,134 @@
+header.myheader div.container {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 100px;
+    color: #fae0ca;
+}
+
+header.myheader div.container:hover {
+    color: rgb(4, 240, 240);
+}
+
+header.myheader div.container p.ability {
+    text-align: center;
+    color: rgb(166, 250, 250);
+    font-size: 16px;
+    margin: 20px;
+    padding: 10px;
+}
+
+header.myheader div.container a.PROJECTS {
+    display: inline-block;
+    border: 4px solid rgb(103, 116, 173);
+    border-radius: 30px;
+    padding: 12px;
+    margin: 22px;
+    background-color: rgb(137, 182, 241);
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header.myheader div.container a.PROJECTS:hover {
+    text-decoration: underline;
+    border: 4px solid rgb(72, 92, 207);
+}
+
+section.about h2.text-center:hover {
+    text-decoration: underline;
+}
+
+section.about div.container div.row div.col-md p.aboutpara {
+    font-size: 20px;
+    font-family: 'Luxurious Roman', cursive;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+section.about a.portfolio {
+    display: inline-block;
+    padding: 12px;
+    border-radius: 22px;
+    border: 3px solid black;
+    color: black;
+    background-color: rgb(105, 197, 233);
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+section.about a.portfolio:hover {
+    display: inline-block;
+    color: rgb(9, 6, 206);
+    text-decoration: underline;
+}
+
+section.more {
+    background-color: rgb(209, 232, 243);
+    text-align: center;
+    padding: 15px;
+    margin-top: 5px;
+}
+
+section.more h2.text-center:hover {
+    text-decoration: underline;
+}
+
+a.anchor {
+    padding: 25px;
+    display: inline-block;
+}
+
+a.anchor:hover {
+    color: rgb(43, 39, 253);
+    font-weight: bold;
+}
+
+h3.text-center:hover {
+    text-decoration: underline;
+}
+
+section.more div.col-md {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+section.whyme h2.text-center:hover {
+    text-decoration: underline;
+}
+
+section.whyme div.container div.row div.col-md p.para {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+section.whyme a.github {
+    display: inline-block;
+    padding: 12px;
+    border-radius: 30px;
+    border: 3px solid black;
+    color: rgb(255, 241, 40);
+    background-color: rgb(129, 144, 231);
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+section.whyme a.github:hover {
+    text-decoration: underline;
+}
+
+section.cont {
+    background-color: bisque;
+}
+
+section.cont h2.text-center:hover {
+    text-decoration: underline;
+}
+section.cont a.href{
+    size: 5in;
+    
+}

@@ -1,0 +1,49 @@
+body {
+    background: url("../images2.0/bk1.jpg");
+}
+
+h2.name {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+
+div.info {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.name {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+section.objective h2.head {
+    text-decoration: underline;
+}
+
+section.edu h2.heading {
+    text-decoration: underline;
+}
+
+section.skills h2.tech {
+    text-decoration: underline;
+}
+
+section.personal h2.persnl {
+    text-decoration: underline;
+}
+
+section.interest h2.hobbies {
+    text-decoration: underline;
+}
+
+section.info h2.title {
+    text-decoration: underline;
+}
+
+h4.para7 {
+    text-align: right;
+    margin-right: 150px;
+    font-weight: bolder;
+}
